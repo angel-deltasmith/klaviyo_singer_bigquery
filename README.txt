@@ -5,7 +5,7 @@ Cloud Function
     -main.py
     -requirements.txt
     -config.json
-    -state.json
+    -state.json ---> In this file make sure to change the api_key from the new company
     -catalog.json
     -catalog_campaigns.json
 
@@ -17,7 +17,7 @@ Cloud Function
     
     2.2 - In the line where the load "job_config_metrics" variable is declared, update the the next field as is showed: write_disposition='WRITE_TRUNCATE' 
           This is since there is an error in the big query tables the first time the cloud function sends the information to the tables. Once you run the first test,               you can go and change the field back to write_disposition='WRITE_APPEND' so the next time the function will run it will append the new rows in the table.
-
+    
   3.- Test the function
 
 Big Query
