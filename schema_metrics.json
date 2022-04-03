@@ -1,0 +1,208 @@
+[
+    {
+        "name": "record",
+        "type": "RECORD",
+        "mode": "NULLABLE",
+        "fields": [
+            {
+                "name": "uuid",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "datetime",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "event_name",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "timestamp",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "statistic_id",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "id",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            },
+            {
+                "name": "event_properties",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                    {
+                        "name": "event_id",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "name": "CampaignName",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "name": "ClientName",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "name": "ClientOSFamily",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "name": "message",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "name": "flow",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "name": "ClientType",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "name": "URL",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "name": "_cohortmessage_send_cohort",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "name": "message_interaction",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "name": "ClientOS",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "name": "ESP",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "name": "EmailDomain",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },
+                    {
+                        "name": "Subject",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    }
+                ]
+            },
+            {
+                "name": "person",
+                "type": "RECORD",
+                "mode": "NULLABLE",
+                "fields": [
+                    {
+                        "name": "id",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },                    {
+                        "name": "address1",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },                    {
+                        "name": "address2",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },                    {
+                        "name": "city",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },                    {
+                        "name": "country",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },                    {
+                        "name": "region",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },                    {
+                        "name": "latitude",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },                    {
+                        "name": "longitude",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },                    {
+                        "name": "zip",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },                    {
+                        "name": "first_name",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },                    {
+                        "name": "email",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },                    {
+                        "name": "last_name",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },                    {
+                        "name": "timezone",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },                    {
+                        "name": "source",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },                    {
+                        "name": "AcceptsMarketing",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },                    {
+                        "name": "created",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    },                    {
+                        "name": "updated",
+                        "type": "STRING",
+                        "mode": "NULLABLE"
+                    }
+
+                ]
+            },
+            {
+                "name": "object",
+                "type": "STRING",
+                "mode": "NULLABLE"
+            }
+        ]
+    },
+    {
+        "name": "stream",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    },
+    {
+        "name": "type",
+        "type": "STRING",
+        "mode": "NULLABLE"
+    }
+]
