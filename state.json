@@ -1,0 +1,34 @@
+{
+	"bookmarks": {
+		"campaigns": {
+			"since": "2022-03-31T00:00:00Z"
+		},
+		"open": {
+			"since": "2022-03-31T00:00:00Z"
+		},
+		"click": {
+			"since": "2022-03-31T00:00:00Z"
+		},
+		"subscribe_list": {
+			"since": "2022-03-31T00:00:00Z"
+		},
+		"unsubscribe": {
+			"since": "2022-03-31T00:00:00Z"
+		},
+		"unsub_list": {
+			"since": "2022-03-31T00:00:00Z"
+		},
+		"lists": {
+			"since": "2022-03-31T00:00:00Z"
+		},
+		"dropped_email": {
+			"since": "2022-03-31T00:00:00Z"
+		},
+		"update_email_preferences": {
+			"since": "2022-03-31T00:00:00Z"
+		},
+        "receive": {
+			"since": "2022-03-31T00:00:00Z"
+		}
+	}
+}
